@@ -1,0 +1,254 @@
+@media(max-width: 1200px) {
+
+    .main-content .step-container:first-child:after{
+        top: 480px;
+    }
+    
+    .main-content .step-container:nth-child(2):after{
+       width: 500px;
+    }
+
+
+}
+
+@media(max-width: 935px) {
+
+    .main-content .step-container:first-child:after{
+        top: 480px;
+        width: 500px;
+    }
+    
+    .main-content .step-container:nth-child(2):after{
+        top: 480px;
+        left: 150px;
+    }
+
+    .main-content{
+        max-width: 730px;
+    
+    }   
+
+    .main-content .step-container{
+        width: 100%;
+    }
+
+    
+    .step-img-container img{
+        max-width: 330px ;
+    }
+
+    .footer-top .img-container{
+        margin-bottom: 30px;
+    }
+
+    .footer-top .img-container img{
+        max-width: 350px;
+    }
+
+    .footer-top{
+        flex-direction: column;
+    }
+
+
+
+    .input-container{
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .links-container {
+        flex-direction: column;
+
+    }
+
+    .links-container .list-container{
+        width: 85%;
+        margin-bottom: 15px;
+    }
+
+    .social-links-column{
+        width: 65%;
+    }
+
+}
+
+
+
+
+@media(max-width: 676px) {
+    body,html,*{
+        margin: 0;
+        padding: 0;
+        max-width:100%;
+    }
+
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    header{
+        background-color: var(--bg-sand);
+        width: 100%;
+    }
+
+    .top-menu{
+        margin: 0;
+        padding: 0;
+        height: 110px;
+    }
+
+    .btn-nav{
+        top: 40px;
+        width: 60px;
+        height: 60px;  
+        border-radius: 50% ;   
+    }
+
+    .btn-menu {
+        color: var(--dark-olive);
+        background: #fff;
+        border: 3px solid var(--dark-olive);
+        left: 20px;   
+    }
+    
+    
+    .btn-entrar {
+        background: var(--dark-olive);
+        border: none;
+        color: #fff;
+        right: 20px;
+    }
+
+    .text-btn{
+        display: none;
+    }
+
+    .top-menu .top-img img{
+        width: 118.32px;
+        height: 120px;    
+    }
+    .top-menu .top-img{
+        right: calc(50% - 59.16px) ;
+        top: 46px;
+
+    }
+
+    .top-section{
+        padding: 85px ;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-section .top-container h1{
+        color: var(--dark-olive);
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28.26px;
+    }
+
+    .top-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-content{
+        max-width: 360px;
+    }
+
+    .main-content .step-container:first-child:after{
+        background-image: url('../assets/left-line-cut.svg');
+        width: 50px;
+        top: 580px;
+
+    }
+    
+    .main-content .step-container:nth-child(2):after{
+        background-image: url('../assets/right-line-cut.svg');
+        width: 50px;
+        top: 580px;
+
+    }
+
+    .main-content .step-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .main-content .step-container:nth-child(2){
+        flex-direction: column-reverse ;
+    }
+
+    .step-img-container img{
+        max-width: 290px ;
+    }
+
+    .step-content-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step-content-container h2 {
+        font-size: 24px;
+    }
+
+    .step-content-container p {
+        font-size: 14px;
+    }
+
+    .footer-content{
+        padding: 10px;
+    }
+
+    .footer-top {
+        margin: 30px 0;
+    }
+
+    .news-container p {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .input-container{
+        margin: 0 auto;
+    }
+
+
+    .social-links-column {
+        width: 325px;
+        margin: 16px auto 100px;
+    }
+
+
+
+    .terms-container, .list-container,  .footer-top .img-container{
+        display: none;
+    }
+   
+}
+
+.footer-credentials {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.credential-mobile {
+    display: flex;
+}
+
+.ftr-logo-container {
+    position: absolute;
+    top: -35px;
+}
+
+.credential {
+    position: absolute;
+    top: -85px;
+    max-width: 350px;
+}
