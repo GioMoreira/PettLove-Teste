@@ -115,6 +115,28 @@ footer{
     right: 0;
 }
 
+.btn-start {
+    width: 280px;
+    height: 60px
+}
+
+.btn-loadmore{
+    width: 380px;
+    height: 60px;
+    margin: 30px auto;
+}
+
+.btn-topsection{
+    background: var(--yellow);
+;
+    border: none;
+    border-radius: 30px;
+
+    color: var(--dark-olive);
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .btn-footer {
     cursor: pointer;
     border-radius: 50%;
