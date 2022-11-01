@@ -6,10 +6,29 @@
     .title-container {
         text-align: center;
         margin-top: 102px;
+        width: 80%;
     }
 
     .grey-p{
         font-size: 16px;
         line-height: 19px;
+    }
+
+    .pets-dating-container {
+        display: block;
+    }
+
+    .couples-pics {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .ads {
+        max-width: 315px;
+        height: 80px;
+    }
+
+    .btn-loadmore{
+        width: 335px;
     }
 }
