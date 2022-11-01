@@ -1,0 +1,15 @@
+@media(max-width: 676px){
+    .top-menu{
+        background: #fff;
+    }
+
+    .title-container {
+        text-align: center;
+        margin-top: 102px;
+    }
+
+    .grey-p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

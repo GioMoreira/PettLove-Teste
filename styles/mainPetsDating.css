@@ -1,0 +1,61 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title-container {
+    text-align: center;
+    margin: 172px auto 83px;
+
+}
+
+.pets-dating-container {
+    display: flex;
+    margin-bottom: 50px ;
+}
+
+.couple-column {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.couples-pics {
+    display: flex;
+    position: relative;
+    gap: 20px ;
+}
+
+.couples-pics::after{
+    background-image: url('../assets/heart.svg');
+    content: "";
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: calc(50% - 30px);
+    top: calc(50% - 30px);
+
+}
+
+.couple-column h2{
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--dark-olive);
+}
+
+.ads {
+    max-width: 750px;
+    height: 100px;
+    background: #E5E5E5;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-container {
+    color: #9A9A9A;
+}
+

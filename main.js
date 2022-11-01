@@ -5,11 +5,11 @@ class MyHeader extends HTMLElement {
             <div class="top-menu">
                 <ul>
                     <button class="btn-top btn-nav btn-menu">
-                        <img src="assets/menuIcon.svg"  alt=""/>
+                        <img  src="assets/menuIcon.svg"  alt=""/>
                         <span class="text-btn">Menu</span> 
                     </button>
 
-                    <div class='top-img' >
+                    <div class='top-img' onclick="location.href='index.html'" >
                     <img src="assets/logo.svg" alt=""/> 
                     </div>
                     
@@ -59,7 +59,7 @@ class MyFooter extends HTMLElement {
                     </ul>
 
                     <ul class="links-column">
-                        <li>Pets namorando</li>
+                        <li onclick="location.href='petsdating.html'">Pets Namorando</li>
                         <li>Comece agora!</li>
                         <li>Contato</li>
                     </ul>
