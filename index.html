@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/responsiveMain.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/css/uikit.min.css" />
+
     <link rel="icon" type="image/x-icon" href="assets/logo.svg">
+    
     <title>Pett Love - Home</title>
 </head>
 <body>
+
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit-icons.min.js"></script>
+
     <header id="header">
+      
         <div class="top-menu">
             <ul>
                 <button class="btn-top btn-nav btn-menu">
@@ -45,63 +54,68 @@
 
         <section class="main-content">
 
-          <!-- {/* CADASTRE SEU ANIMAL */} -->
-          <div class="step-container">
-            <div class="step-img-container">
-              <img src="assets/photo1.png"  alt=""/>
+          <div uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
+            
+              <!-- {/* CADASTRE SEU ANIMAL */} -->
+            <div class="step-container">
+              <div class="step-img-container">
+                <img src="assets/photo1.png"  alt=""/>
+              </div>
+              <div class="step-content-container">
+                <img src="assets/cadastre-pet.svg" alt=""/>
+                <h2>Cadastre seu 
+                  <span> animal</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Donec egestas, erat et convallis gravida, nisl libero imperdiet 
+                  dolor, et vestibulum tortor quam in nunc.
+                </p>
+              </div>
             </div>
-            <div class="step-content-container">
-              <img src="assets/cadastre-pet.svg" alt=""/>
-              <h2>Cadastre seu 
-                <span> animal</span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Donec egestas, erat et convallis gravida, nisl libero imperdiet 
-                dolor, et vestibulum tortor quam in nunc.
-              </p>
+
+            
+
+            <!-- {/* PROCURE PRETENDENTES */} -->
+            <div class="step-container">
+              <div class="step-content-container">
+                <img src="assets/sear.svg" alt=""/>
+                <h2>Procure 
+                  <span> pretendentes</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Donec egestas, erat et convallis gravida, nisl libero imperdiet 
+                  dolor, et vestibulum tortor quam in nunc.
+                </p>
+              </div>
+              <div class="step-img-container">
+                <img src="assets/photo2.png"  alt=""/>
+              </div>
             </div>
+
+
+
+            <!-- {/* MARQUE UM ENCONTRO */} -->
+            <div class=" step-container">
+              <div class="step-img-container">
+                <img src="assets/photo3.png"  alt=""/>
+              </div>
+              <div class="step-content-container">
+                <img src="assets/agende.svg" alt=""/>
+                <h2>Marque um 
+                  <span> encontro</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Donec egestas, erat et convallis gravida, nisl libero imperdiet 
+                  dolor, et vestibulum tortor quam in nunc.
+                </p>
+              </div>
           </div>
 
+          </div>
           
-
-          <!-- {/* PROCURE PRETENDENTES */} -->
-          <div class="step-container">
-            <div class="step-content-container">
-              <img src="assets/sear.svg" alt=""/>
-              <h2>Procure 
-                <span> pretendentes</span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Donec egestas, erat et convallis gravida, nisl libero imperdiet 
-                dolor, et vestibulum tortor quam in nunc.
-              </p>
-            </div>
-            <div class="step-img-container">
-              <img src="assets/photo2.png"  alt=""/>
-            </div>
-          </div>
-
-
-
-          <!-- {/* MARQUE UM ENCONTRO */} -->
-          <div class=" step-container">
-            <div class="step-img-container">
-              <img src="assets/photo3.png"  alt=""/>
-            </div>
-            <div class="step-content-container">
-              <img src="assets/agende.svg" alt=""/>
-              <h2>Marque um 
-                <span> encontro</span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Donec egestas, erat et convallis gravida, nisl libero imperdiet 
-                dolor, et vestibulum tortor quam in nunc.
-              </p>
-            </div>
-          </div>
         </section>             
       </main>
 

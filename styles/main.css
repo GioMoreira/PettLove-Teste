@@ -131,7 +131,7 @@ footer{
     flex-direction: column;
     margin: 0 auto;
     padding-top: 100px;
-    max-width: 1024px;
+    max-width: 1200px;
 
 }
 
@@ -178,11 +178,9 @@ footer{
 }
 
 .step-content-container{
-    width: 600px;
     padding: 5px 10px;
     transform: translateY(15px);
     transition: all 1.3s;
-    z-index: 100;
     border-radius: 15px;
 
 }
@@ -215,8 +213,13 @@ footer{
     width: 100%;
 }
 
+.step-img-container{
+    width: 480px;
+}
+
 .step-img-container img{
     box-shadow: 20px 20px 0 #f4c80f;
+    max-width: fit-content;
 }
 
 
