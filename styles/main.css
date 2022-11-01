@@ -155,7 +155,7 @@ footer{
     background-repeat: no-repeat;
     bottom: 1px;
     left: 200px;
-    top: 500px;
+    top: 470px;
 }
 
 .main-content .step-container:nth-child(2):after{
@@ -168,7 +168,11 @@ footer{
     background-repeat: no-repeat;
     bottom: 1px;
     left: 200px;
-    top: 480px;
+    top: 450px;
+}
+
+.main-content .step-container:last-child{
+    margin-bottom: 180px;
 }
 
 .step-container+.step-container{
@@ -265,7 +269,8 @@ footer{
     font-size: 18px;
     font-weight: 700;
     text-align: left ;
-    width: 50%;
+    width: 60%;
+    height: 50px;
 }
 
 .input-container input::placeholder{

@@ -166,18 +166,22 @@
         max-width: 360px;
     }
 
-    .main-content .step-container:first-child:after{
-        background-image: url('../assets/left-line-cut.svg');
+    .main-content .step-container:first-child:after {
+        background-image: url(../assets/left-line-cut.svg);
         width: 50px;
-        top: 580px;
-
+        top: 700px;
+        left: auto;
     }
     
     .main-content .step-container:nth-child(2):after{
         background-image: url('../assets/right-line-cut.svg');
         width: 50px;
-        top: 580px;
+        top: 700px;
 
+    }
+
+    .main-content .step-container:last-child{
+        margin-bottom: 180px;
     }
 
     .main-content .step-container {
