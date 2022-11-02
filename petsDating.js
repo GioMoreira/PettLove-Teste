@@ -1,13 +1,3 @@
-const image_array = [
-    'Abigail.png',
-    'bingo.png',
-    'Guido.png',
-    'jade.png',
-    'jujuba.png',
-    'kiwi.png',
-    'lennon.png',
-    'pancho.png'
-]
 
 class PetsDating extends HTMLElement {
     connectedCallback() {
