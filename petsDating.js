@@ -1,3 +1,12 @@
+const image_array = [
+    'Abigail.png',
+    'bingo.png'
+]
+
+
+function get_pet() {
+ 
+}
 class PetsDating extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -53,3 +62,9 @@ class PetsDating extends HTMLElement {
 }
 
 customElements.define('pets-dating', PetsDating)
+
+function loadMore() {
+    document.getElementById("pets-dating-content").insertAdjacentHTML('beforeend', '<pets-dating />')
+}
+
+

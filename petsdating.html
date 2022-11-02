@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/mainPetsDating.css">
-    <link rel="stylesheet" href="styles/responsiveMain.css">
-    <link rel="stylesheet" href="styles/responsivePetsDating.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/css/uikit.min.css" />
-    <title>Pett Love - Pets Namorando</title>
-    <link rel="icon" type="image/x-icon" href="assets/logo.svg">
-</head>
-<body>
-  <script src="main.js"></script>
-  <script src="petsDating.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit-icons.min.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/mainPetsDating.css">
+        <link rel="stylesheet" href="styles/responsiveMain.css">
+        <link rel="stylesheet" href="styles/responsivePetsDating.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/css/uikit.min.css" />
+        <title>Pett Love - Pets Namorando</title>
+        <link rel="icon" type="image/x-icon" href="assets/logo.svg">
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <script src="petsDating.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit-icons.min.js"></script>
 
-  <my-header/>
+        <my-header/>
 
-  <main>
-    <div class="title-container">
-        <h2 class="title-h2">
-            Pets   
-            <span class="title-h2-span">namorando</span>
-        </h2>
-        <p class="grey-p">Duis aute irure dolor in reprehenderit in voluptate</p>
-    </div>
-
-    <pets-dating />
-    
-    <!-- É a mesma que o template pets-dating acima com imagens diferentes -->
-    <div uk-scrollspy="cls:uk-animation-fade">
-        <section class="pets-dating-container">
-            <div class="couple-column">
-    
-                <div class="couples-pics">
-                    <div>
-                        <img src="assets/Guido.png" alt="">
-                    </div>
-        
-                    <div>
-                        <img src="assets/Abigail.png" alt="">
-                    </div>
-                </div> 
-    
-                <h2>Guido e Abigail</h2>
+        <main id="#main">
+            <div class="title-container">
+                <h2 class="title-h2">
+                    Pets   
+                    <span class="title-h2-span">namorando</span>
+                </h2>
+                <p class="grey-p">Duis aute irure dolor in reprehenderit in voluptate</p>
             </div>
-    
-            <div class="couple-column">
-                <div class="couples-pics">
-                    <div>
-                        <img src="assets/lennon.png" alt="">
-                    </div>
-        
-                    <div>
-                        <img src="assets/jujuba.png" alt="">
-                    </div>
+
+            <div id="pets-dating-content">
+
+                <pets-dating />         
+                <!-- É a mesma que o template pets-dating acima com imagens diferentes -->
+                <div uk-scrollspy="cls:uk-animation-fade">
+                    <section class="pets-dating-container">
+                        <div class="couple-column">
+                
+                            <div class="couples-pics">
+                                <div>
+                                    <img id="pet1" src="assets/Guido.png" alt="">
+                                </div>
+                    
+                                <div>
+                                    <img id="pet2" src="assets/Abigail.png" alt="">
+                                </div>
+                            </div> 
+                
+                            <h2>Guido e Abigail</h2>
+                        </div>
+                
+                        <div class="couple-column">
+                            <div class="couples-pics">
+                                <div>
+                                    <img src="assets/lennon.png" alt="">
+                                </div>
+                    
+                                <div>
+                                    <img src="assets/jujuba.png" alt="">
+                                </div>
+                            </div>
+                
+                            <h2>Lennon e Jujuba</h2>
+                        </div>
+                
+                        <div class="couple-column">
+                            <div class="couples-pics">
+                                <div>
+                                    <img src="assets/pancho.png" alt="">
+                                </div>
+                    
+                                <div>
+                                    <img src="assets/kiwi.png" alt="">
+                                </div>
+                            </div>
+                
+                            <h2>Pancho e Kiwi</h2>
+                        </div>
+                    </section>
                 </div>
-    
-                <h2>Lennon e Jujuba</h2>
-            </div>
-    
-            <div class="couple-column">
-                <div class="couples-pics">
-                    <div>
-                        <img src="assets/pancho.png" alt="">
+
+                <section class="ads">
+                    <div class="ad-container">
+                        Publicidade 750x100
                     </div>
-        
-                    <div>
-                        <img src="assets/kiwi.png" alt="">
-                    </div>
-                </div>
-    
-                <h2>Pancho e Kiwi</h2>
+                </section>
+
+                <pets-dating></pets-dating>
+               
+                
             </div>
-        </section>
-    </div>
 
-    <section class="ads">
-        <div class="ad-container">
-            Publicidade 750x100
-        </div>
-    </section>
-
-    <pets-dating></pets-dating>
-
-    <div class="button-container">
-        <button class="btn-top btn-topsection btn-loadmore">
-            Carregar mais antigos
-        </button>
-    </div>
-
-  </main>
-    
-  <my-footer/>
-</body>
+            <div class="button-container">
+                <button class="btn-top btn-topsection btn-loadmore" onclick="loadMore()">
+                    Carregar mais antigos
+                </button>
+            </div>
+        </main>
+            
+        <my-footer/>
+    </body>
 </html>
