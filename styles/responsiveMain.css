@@ -255,6 +255,7 @@
     .ftr-logo-container {
         position: absolute;
         top: -35px;
+        left: calc(50% - 25px);
     }
     
     .credential {
