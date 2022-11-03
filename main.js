@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
         <header id="header">
             <div class="top-menu">
                 <ul>
-                    <button class="btn-top btn-nav btn-menu">
+                    <button class="btn-top btn-nav btn-menu" type="button" uk-toggle="target: #offcanvas-usage">
                         <img  src="assets/menuIcon.svg"  alt=""/>
                         <span class="text-btn">Menu</span> 
                     </button>
@@ -22,7 +22,27 @@ class MyHeader extends HTMLElement {
 
                 </ul>
             </div>
-      </header>`
+      </header>
+      <div id="offcanvas-usage" uk-offcanvas class="my-menu">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <a href="/petsdating.html">
+                    <div>
+                        <h3>Pets Namorando</h3>
+                    </div>
+                </a>
+                
+
+                <a href="/index.html">
+                <div>
+                    <h3>Home</h3>
+                </div>
+            </a>
+                
+            </div>
+      </div>`
         
     }
 }

@@ -331,3 +331,7 @@ footer{
     top: 50%;
     
 }
+
+.uk-offcanvas-bar{
+    background: var(--light-olive)!important;
+}
