@@ -332,6 +332,11 @@ footer{
     
 }
 
+.terms-container a:hover{
+    color: var(--yellow);
+    text-decoration: none;
+}
+
 .uk-offcanvas-bar{
     background: var(--light-olive)!important;
 }
