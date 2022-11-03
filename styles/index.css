@@ -289,12 +289,14 @@ footer{
     background: var(--dark-olive);
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
 }
 
 .social-links-column .img-container img{
     position: absolute;
     bottom: calc(50% - 14px);
     right: calc(50% - 14px);
+    
 }
 
 

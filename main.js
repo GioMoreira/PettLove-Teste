@@ -85,17 +85,26 @@ class MyFooter extends HTMLElement {
                     
 
                     <div class="social-links-column">
-                    <div class="img-container">
-                        <img src="assets/facebook.svg" alt="" />
-                    </div>
+                        <a href="https://www.facebook.com">
+                            <div class="img-container">
+                                <img src="assets/facebook.svg" alt="" />
+                            </div>
+                        </a>
+                        
 
-                    <div class="img-container">
-                        <img src="assets/instagram.svg" alt="" />
-                    </div>
+                        <a href="https://www.instagram.com">
+                            <div class="img-container" >
+                                <img src="assets/instagram.svg" alt="" />
+                            </div>
+                        </a>
+                        
 
-                    <div class="img-container">
-                        <img src="assets/youtube.svg" alt="" />
-                    </div>
+                        <a href="https://www.youtube.com"> 
+                            <div class="img-container">
+                                <img src="assets/youtube.svg" alt="" />
+                            </div>
+                        </a>
+                    
                     </div>
                 </div>
 
@@ -121,9 +130,12 @@ class MyFooter extends HTMLElement {
                     <img src='assets/topicon1.svg' alt=''></img>
                 </div>
 
-                <div class="ftr-logo-container">
-                    <img src='assets/clickweblogo.svg' alt=''></img>
-                </div>
+                <a href="https://www.clickweb.com.br">
+                    <div class="ftr-logo-container">
+                        <img src='assets/clickweblogo.svg' alt=''></img>
+                    </div>
+                </a>
+                
             </section>
       </footer>  `
         
