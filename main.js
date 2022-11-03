@@ -146,9 +146,11 @@ class MyFooter extends HTMLElement {
                     <p>Pett Love - Relacionamento | CNPJ: 43.660.696/0001-95</p>
                 </div>
                 
-                <div class='btn-footer'>
-                    <img src='assets/topicon1.svg' alt=''></img>
-                </div>
+                <a href="#header">
+                    <div class='btn-footer'>
+                        <img src='assets/topicon1.svg' alt=''></img>
+                    </div>
+                </a>
 
                 <a href="https://www.clickweb.com.br">
                     <div class="ftr-logo-container">
