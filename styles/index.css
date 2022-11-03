@@ -335,3 +335,21 @@ footer{
 .uk-offcanvas-bar{
     background: var(--light-olive)!important;
 }
+
+.uk-offcanvas-bar h3{
+    width: 100%;
+    font-weight: 700;
+}
+
+.uk-offcanvas-bar a:hover{
+    text-decoration: none;
+    
+}
+
+.uk-offcanvas-bar h3:hover {
+    color: var(--yellow);
+}
+
+.uk-offcanvas-bar .uk-close:hover {
+    color: var(--yellow)!important;
+}
