@@ -28,18 +28,16 @@ class MyHeader extends HTMLElement {
 
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
 
-                <a href="/petsdating.html">
-                    <div>
-                        <h3>Pets Namorando</h3>
-                    </div>
-                </a>
-                
-
-                <a href="/index.html">
-                <div>
+                <div class="menu-opt" onclick="location.href='index.html'">
                     <h3>Home</h3>
                 </div>
-            </a>
+
+                <div class="menu-opt" onclick="location.href='petsdating.html'">
+                    <h3>Pets Namorando</h3>
+                </div>
+ 
+              
+
                 
             </div>
       </div>`
