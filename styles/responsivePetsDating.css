@@ -28,7 +28,8 @@
         height: 80px;
     }
 
-    .btn-loadmore{
-        width: 335px;
+    .btn-loadmore {
+        width: 80%;
+        max-width: 380px;
     }
 }

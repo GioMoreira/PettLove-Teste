@@ -84,7 +84,7 @@
 
 
 @media(max-width: 676px) {
-    body,html,*{
+    body,html{
         margin: 0;
         padding: 0;
         max-width:100%;
@@ -121,6 +121,10 @@
         border: 3px solid var(--dark-olive);
         left: 20px;   
     }
+
+    .btn-start {
+        width: 280px!important;
+    }
     
     
     .btn-entrar {
@@ -128,6 +132,10 @@
         border: none;
         color: #fff;
         right: 20px;
+    }
+
+    .btn-register {
+        font-size: 16px;
     }
 
     .text-btn{
@@ -169,14 +177,14 @@
     .main-content .step-container:first-child:after {
         background-image: url(../assets/left-line-cut.svg);
         width: 50px;
-        top: 700px;
+        top: 670px;
         left: auto;
     }
     
     .main-content .step-container:nth-child(2):after{
         background-image: url('../assets/right-line-cut.svg');
         width: 50px;
-        top: 700px;
+        top: 630px;
 
     }
 
@@ -194,10 +202,25 @@
         flex-direction: column-reverse ;
     }
 
-    .step-img-container img{
-        max-width: 290px ;
+    .step-container+.step-container {
+        margin-bottom: 270px;
     }
 
+    .main-content .step-container:last-child {
+        margin-bottom: 100px;
+    }
+
+    .step-img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .step-img-container img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+    }
     .step-content-container{
         width: 90%;
         display: flex;
@@ -207,14 +230,25 @@
 
     .title-h2 {
         font-size: 24px;
+        font-weight: 900;
+        line-height: 29px;
+        text-align: center;
+        white-space: nowrap;
     }
 
     .step-content-container p {
         font-size: 14px;
+        text-align: center; 
     }
 
     .footer-content{
         padding: 10px;
+    }
+
+    .footer-credentials p {
+        max-width: 100%;
+        white-space: pre-line;
+        text-align: center;
     }
 
     .footer-top {
@@ -230,12 +264,25 @@
         margin: 0 auto;
     }
 
+    .input-container input {
 
-    .social-links-column {
-        width: 325px;
-        margin: 16px auto 100px;
+        font-size: 14px;
+
     }
 
+
+    .social-links-column {
+        width: 300px;
+        margin: 16px auto 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-links-column .img-container {
+        margin: 0 10px;
+
+    }
+ 
 
 
     .terms-container, .list-container,  .footer-top .img-container{
@@ -261,7 +308,7 @@
     .credential {
         position: absolute;
         top: -85px;
-        max-width: 350px;
+        max-width: 200px;
     }
    
 }
